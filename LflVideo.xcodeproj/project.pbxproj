@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E6792CB1FE9F83900C320FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6792CA1FE9F83900C320FC /* main.m */; };
+		0E6792CE1FE9F83900C320FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6792CD1FE9F83900C320FC /* AppDelegate.m */; };
+		0E6792D11FE9F83900C320FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6792D01FE9F83900C320FC /* ViewController.m */; };
+		0E6792D41FE9F83900C320FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E6792D21FE9F83900C320FC /* Main.storyboard */; };
+		0E6792D61FE9F83900C320FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E6792D51FE9F83900C320FC /* Assets.xcassets */; };
+		0E6792D91FE9F83900C320FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E6792D71FE9F83900C320FC /* LaunchScreen.storyboard */; };
+		0E6792E41FE9F83900C320FC /* LflVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6792E31FE9F83900C320FC /* LflVideoTests.m */; };
+		0E6792EF1FE9F83900C320FC /* LflVideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6792EE1FE9F83900C320FC /* LflVideoUITests.m */; };
+		0E6793011FE9F88700C320FC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6793001FE9F88700C320FC /* MainViewController.m */; };
+		0E6793041FE9F89900C320FC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6793031FE9F89900C320FC /* DetailViewController.m */; };
+		0E6793071FE9F8CD00C320FC /* LflVideoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6793061FE9F8CD00C320FC /* LflVideoItem.m */; };
+		0E67930A1FE9F8FA00C320FC /* LflVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6793091FE9F8FA00C320FC /* LflVideoCell.m */; };
+		0E6794231FE9FDDB00C320FC /* right_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E67930B1FE9FDDA00C320FC /* right_arrow@2x.png */; };
+		0E6794241FE9FDDB00C320FC /* right_arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E67930C1FE9FDDA00C320FC /* right_arrow@3x.png */; };
+		0E6794251FE9FDDB00C320FC /* ImageResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0E67930D1FE9FDDA00C320FC /* ImageResources.bundle */; };
+		0E6794261FE9FDDB00C320FC /* right_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E67930E1FE9FDDA00C320FC /* right_arrow.png */; };
+		0E6794971FE9FEAC00C320FC /* LflSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6794961FE9FEAC00C320FC /* LflSlider.m */; };
+		0E67949A1FE9FF3F00C320FC /* LflVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6794991FE9FF3F00C320FC /* LflVideoPlayer.m */; };
+		1DCC4358982178D838A4AA99 /* libPods-LflVideoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E9706F28D2D40D0E452629 /* libPods-LflVideoTests.a */; };
+		498632142D2F280190B8C868 /* libPods-LflVideoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F04ECCA9B72827A1043A8B09 /* libPods-LflVideoUITests.a */; };
+		538BEB6F8DA7E0B3FC7E1928 /* libPods-LflVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0436B234F20589EF4CE97B /* libPods-LflVideo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E6792E01FE9F83900C320FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E6792BE1FE9F83900C320FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E6792C51FE9F83900C320FC;
+			remoteInfo = LflVideo;
+		};
+		0E6792EB1FE9F83900C320FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E6792BE1FE9F83900C320FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E6792C51FE9F83900C320FC;
+			remoteInfo = LflVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E6792C61FE9F83900C320FC /* LflVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LflVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6792CA1FE9F83900C320FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E6792CC1FE9F83900C320FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E6792CD1FE9F83900C320FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E6792CF1FE9F83900C320FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0E6792D01FE9F83900C320FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0E6792D31FE9F83900C320FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E6792D51FE9F83900C320FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E6792D81FE9F83900C320FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E6792DA1FE9F83900C320FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E6792DF1FE9F83900C320FC /* LflVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LflVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6792E31FE9F83900C320FC /* LflVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LflVideoTests.m; sourceTree = "<group>"; };
+		0E6792E51FE9F83900C320FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E6792EA1FE9F83900C320FC /* LflVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LflVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6792EE1FE9F83900C320FC /* LflVideoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LflVideoUITests.m; sourceTree = "<group>"; };
+		0E6792F01FE9F83900C320FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E6792FF1FE9F88700C320FC /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0E6793001FE9F88700C320FC /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		0E6793021FE9F89900C320FC /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		0E6793031FE9F89900C320FC /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		0E6793051FE9F8CD00C320FC /* LflVideoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LflVideoItem.h; sourceTree = "<group>"; };
+		0E6793061FE9F8CD00C320FC /* LflVideoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LflVideoItem.m; sourceTree = "<group>"; };
+		0E6793081FE9F8FA00C320FC /* LflVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LflVideoCell.h; sourceTree = "<group>"; };
+		0E6793091FE9F8FA00C320FC /* LflVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LflVideoCell.m; sourceTree = "<group>"; };
+		0E67930B1FE9FDDA00C320FC /* right_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right_arrow@2x.png"; sourceTree = "<group>"; };
+		0E67930C1FE9FDDA00C320FC /* right_arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right_arrow@3x.png"; sourceTree = "<group>"; };
+		0E67930D1FE9FDDA00C320FC /* ImageResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ImageResources.bundle; sourceTree = "<group>"; };
+		0E67930E1FE9FDDA00C320FC /* right_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_arrow.png; sourceTree = "<group>"; };
+		0E6794951FE9FEAC00C320FC /* LflSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LflSlider.h; sourceTree = "<group>"; };
+		0E6794961FE9FEAC00C320FC /* LflSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LflSlider.m; sourceTree = "<group>"; };
+		0E6794981FE9FF3F00C320FC /* LflVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LflVideoPlayer.h; sourceTree = "<group>"; };
+		0E6794991FE9FF3F00C320FC /* LflVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LflVideoPlayer.m; sourceTree = "<group>"; };
+		1870571315C61452B6D53DD2 /* Pods-LflVideoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LflVideoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LflVideoUITests/Pods-LflVideoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		36C015D5B8D459241633D914 /* Pods-LflVideoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LflVideoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LflVideoTests/Pods-LflVideoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C3F022A965A0BB08CDE164C /* Pods-LflVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LflVideo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LflVideo/Pods-LflVideo.debug.xcconfig"; sourceTree = "<group>"; };
+		4E40BB8EB9E6CB844582C8CE /* Pods-LflVideoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LflVideoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LflVideoUITests/Pods-LflVideoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		54013AA204A1A14DED7349FF /* Pods-LflVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LflVideo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LflVideo/Pods-LflVideo.release.xcconfig"; sourceTree = "<group>"; };
+		6356376B490D4B7407073C26 /* Pods-LflVideoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LflVideoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LflVideoTests/Pods-LflVideoTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB0436B234F20589EF4CE97B /* libPods-LflVideo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LflVideo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3E9706F28D2D40D0E452629 /* libPods-LflVideoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LflVideoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F04ECCA9B72827A1043A8B09 /* libPods-LflVideoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LflVideoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E6792C31FE9F83900C320FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538BEB6F8DA7E0B3FC7E1928 /* libPods-LflVideo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6792DC1FE9F83900C320FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DCC4358982178D838A4AA99 /* libPods-LflVideoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6792E71FE9F83900C320FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498632142D2F280190B8C868 /* libPods-LflVideoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E6792BD1FE9F83900C320FC = {
+			isa = PBXGroup;
+			children = (
+				0E6792C81FE9F83900C320FC /* LflVideo */,
+				0E6792E21FE9F83900C320FC /* LflVideoTests */,
+				0E6792ED1FE9F83900C320FC /* LflVideoUITests */,
+				0E6792C71FE9F83900C320FC /* Products */,
+				ACC55B10764612031C3EC065 /* Pods */,
+				6455814233647B1F73B23644 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0E6792C71FE9F83900C320FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E6792C61FE9F83900C320FC /* LflVideo.app */,
+				0E6792DF1FE9F83900C320FC /* LflVideoTests.xctest */,
+				0E6792EA1FE9F83900C320FC /* LflVideoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E6792C81FE9F83900C320FC /* LflVideo */ = {
+			isa = PBXGroup;
+			children = (
+				0E6794931FE9FE5C00C320FC /* VideoPlayer */,
+				0E6792FE1FE9F87100C320FC /* M */,
+				0E6792FD1FE9F86B00C320FC /* V */,
+				0E6792FC1FE9F85D00C320FC /* C */,
+				0E6792CC1FE9F83900C320FC /* AppDelegate.h */,
+				0E6792CD1FE9F83900C320FC /* AppDelegate.m */,
+				0E6792CF1FE9F83900C320FC /* ViewController.h */,
+				0E6792D01FE9F83900C320FC /* ViewController.m */,
+				0E6792D21FE9F83900C320FC /* Main.storyboard */,
+				0E6792D51FE9F83900C320FC /* Assets.xcassets */,
+				0E6792D71FE9F83900C320FC /* LaunchScreen.storyboard */,
+				0E6792DA1FE9F83900C320FC /* Info.plist */,
+				0E6792C91FE9F83900C320FC /* Supporting Files */,
+			);
+			path = LflVideo;
+			sourceTree = "<group>";
+		};
+		0E6792C91FE9F83900C320FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E6792CA1FE9F83900C320FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E6792E21FE9F83900C320FC /* LflVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E6792E31FE9F83900C320FC /* LflVideoTests.m */,
+				0E6792E51FE9F83900C320FC /* Info.plist */,
+			);
+			path = LflVideoTests;
+			sourceTree = "<group>";
+		};
+		0E6792ED1FE9F83900C320FC /* LflVideoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E6792EE1FE9F83900C320FC /* LflVideoUITests.m */,
+				0E6792F01FE9F83900C320FC /* Info.plist */,
+			);
+			path = LflVideoUITests;
+			sourceTree = "<group>";
+		};
+		0E6792FC1FE9F85D00C320FC /* C */ = {
+			isa = PBXGroup;
+			children = (
+				0E67930D1FE9FDDA00C320FC /* ImageResources.bundle */,
+				0E67930E1FE9FDDA00C320FC /* right_arrow.png */,
+				0E67930B1FE9FDDA00C320FC /* right_arrow@2x.png */,
+				0E67930C1FE9FDDA00C320FC /* right_arrow@3x.png */,
+				0E6792FF1FE9F88700C320FC /* MainViewController.h */,
+				0E6793001FE9F88700C320FC /* MainViewController.m */,
+				0E6793021FE9F89900C320FC /* DetailViewController.h */,
+				0E6793031FE9F89900C320FC /* DetailViewController.m */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		0E6792FD1FE9F86B00C320FC /* V */ = {
+			isa = PBXGroup;
+			children = (
+				0E6793081FE9F8FA00C320FC /* LflVideoCell.h */,
+				0E6793091FE9F8FA00C320FC /* LflVideoCell.m */,
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		0E6792FE1FE9F87100C320FC /* M */ = {
+			isa = PBXGroup;
+			children = (
+				0E6793051FE9F8CD00C320FC /* LflVideoItem.h */,
+				0E6793061FE9F8CD00C320FC /* LflVideoItem.m */,
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		0E6794931FE9FE5C00C320FC /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				0E6794941FE9FE8A00C320FC /* Slider */,
+				0E6794981FE9FF3F00C320FC /* LflVideoPlayer.h */,
+				0E6794991FE9FF3F00C320FC /* LflVideoPlayer.m */,
+			);
+			name = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		0E6794941FE9FE8A00C320FC /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				0E6794951FE9FEAC00C320FC /* LflSlider.h */,
+				0E6794961FE9FEAC00C320FC /* LflSlider.m */,
+			);
+			name = Slider;
+			sourceTree = "<group>";
+		};
+		6455814233647B1F73B23644 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB0436B234F20589EF4CE97B /* libPods-LflVideo.a */,
+				D3E9706F28D2D40D0E452629 /* libPods-LflVideoTests.a */,
+				F04ECCA9B72827A1043A8B09 /* libPods-LflVideoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACC55B10764612031C3EC065 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C3F022A965A0BB08CDE164C /* Pods-LflVideo.debug.xcconfig */,
+				54013AA204A1A14DED7349FF /* Pods-LflVideo.release.xcconfig */,
+				36C015D5B8D459241633D914 /* Pods-LflVideoTests.debug.xcconfig */,
+				6356376B490D4B7407073C26 /* Pods-LflVideoTests.release.xcconfig */,
+				1870571315C61452B6D53DD2 /* Pods-LflVideoUITests.debug.xcconfig */,
+				4E40BB8EB9E6CB844582C8CE /* Pods-LflVideoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E6792C51FE9F83900C320FC /* LflVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6792F31FE9F83900C320FC /* Build configuration list for PBXNativeTarget "LflVideo" */;
+			buildPhases = (
+				48C6F72EBE2904C09183136D /* [CP] Check Pods Manifest.lock */,
+				0E6792C21FE9F83900C320FC /* Sources */,
+				0E6792C31FE9F83900C320FC /* Frameworks */,
+				0E6792C41FE9F83900C320FC /* Resources */,
+				65EC8F0D987ABDCE332DFB29 /* [CP] Embed Pods Frameworks */,
+				53554C1703387AE38C643B10 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LflVideo;
+			productName = LflVideo;
+			productReference = 0E6792C61FE9F83900C320FC /* LflVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E6792DE1FE9F83900C320FC /* LflVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6792F61FE9F83900C320FC /* Build configuration list for PBXNativeTarget "LflVideoTests" */;
+			buildPhases = (
+				1EED792C4A23FCD3F3C20159 /* [CP] Check Pods Manifest.lock */,
+				0E6792DB1FE9F83900C320FC /* Sources */,
+				0E6792DC1FE9F83900C320FC /* Frameworks */,
+				0E6792DD1FE9F83900C320FC /* Resources */,
+				5F8A2290EEF73C77972C6D69 /* [CP] Embed Pods Frameworks */,
+				2AC59B60540DF179EE8A2F96 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E6792E11FE9F83900C320FC /* PBXTargetDependency */,
+			);
+			name = LflVideoTests;
+			productName = LflVideoTests;
+			productReference = 0E6792DF1FE9F83900C320FC /* LflVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E6792E91FE9F83900C320FC /* LflVideoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6792F91FE9F83900C320FC /* Build configuration list for PBXNativeTarget "LflVideoUITests" */;
+			buildPhases = (
+				A8555CEFFB2F04231A9D4280 /* [CP] Check Pods Manifest.lock */,
+				0E6792E61FE9F83900C320FC /* Sources */,
+				0E6792E71FE9F83900C320FC /* Frameworks */,
+				0E6792E81FE9F83900C320FC /* Resources */,
+				03E6D803F3D81570A3F1B09F /* [CP] Embed Pods Frameworks */,
+				E82625F2FF9935742A9F0FEB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E6792EC1FE9F83900C320FC /* PBXTargetDependency */,
+			);
+			name = LflVideoUITests;
+			productName = LflVideoUITests;
+			productReference = 0E6792EA1FE9F83900C320FC /* LflVideoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E6792BE1FE9F83900C320FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Yomoo;
+				TargetAttributes = {
+					0E6792C51FE9F83900C320FC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = RW8JPQ8G72;
+						ProvisioningStyle = Automatic;
+					};
+					0E6792DE1FE9F83900C320FC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = RW8JPQ8G72;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0E6792C51FE9F83900C320FC;
+					};
+					0E6792E91FE9F83900C320FC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = RW8JPQ8G72;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0E6792C51FE9F83900C320FC;
+					};
+				};
+			};
+			buildConfigurationList = 0E6792C11FE9F83900C320FC /* Build configuration list for PBXProject "LflVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E6792BD1FE9F83900C320FC;
+			productRefGroup = 0E6792C71FE9F83900C320FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E6792C51FE9F83900C320FC /* LflVideo */,
+				0E6792DE1FE9F83900C320FC /* LflVideoTests */,
+				0E6792E91FE9F83900C320FC /* LflVideoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E6792C41FE9F83900C320FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6792D91FE9F83900C320FC /* LaunchScreen.storyboard in Resources */,
+				0E6794241FE9FDDB00C320FC /* right_arrow@3x.png in Resources */,
+				0E6792D61FE9F83900C320FC /* Assets.xcassets in Resources */,
+				0E6792D41FE9F83900C320FC /* Main.storyboard in Resources */,
+				0E6794231FE9FDDB00C320FC /* right_arrow@2x.png in Resources */,
+				0E6794261FE9FDDB00C320FC /* right_arrow.png in Resources */,
+				0E6794251FE9FDDB00C320FC /* ImageResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6792DD1FE9F83900C320FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6792E81FE9F83900C320FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03E6D803F3D81570A3F1B09F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LflVideoUITests/Pods-LflVideoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EED792C4A23FCD3F3C20159 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2AC59B60540DF179EE8A2F96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LflVideoTests/Pods-LflVideoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48C6F72EBE2904C09183136D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		53554C1703387AE38C643B10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LflVideo/Pods-LflVideo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F8A2290EEF73C77972C6D69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LflVideoTests/Pods-LflVideoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65EC8F0D987ABDCE332DFB29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LflVideo/Pods-LflVideo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8555CEFFB2F04231A9D4280 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E82625F2FF9935742A9F0FEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LflVideoUITests/Pods-LflVideoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E6792C21FE9F83900C320FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6793041FE9F89900C320FC /* DetailViewController.m in Sources */,
+				0E67930A1FE9F8FA00C320FC /* LflVideoCell.m in Sources */,
+				0E6793071FE9F8CD00C320FC /* LflVideoItem.m in Sources */,
+				0E6792D11FE9F83900C320FC /* ViewController.m in Sources */,
+				0E6792CE1FE9F83900C320FC /* AppDelegate.m in Sources */,
+				0E67949A1FE9FF3F00C320FC /* LflVideoPlayer.m in Sources */,
+				0E6792CB1FE9F83900C320FC /* main.m in Sources */,
+				0E6793011FE9F88700C320FC /* MainViewController.m in Sources */,
+				0E6794971FE9FEAC00C320FC /* LflSlider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6792DB1FE9F83900C320FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6792E41FE9F83900C320FC /* LflVideoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6792E61FE9F83900C320FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6792EF1FE9F83900C320FC /* LflVideoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E6792E11FE9F83900C320FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E6792C51FE9F83900C320FC /* LflVideo */;
+			targetProxy = 0E6792E01FE9F83900C320FC /* PBXContainerItemProxy */;
+		};
+		0E6792EC1FE9F83900C320FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E6792C51FE9F83900C320FC /* LflVideo */;
+			targetProxy = 0E6792EB1FE9F83900C320FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E6792D21FE9F83900C320FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E6792D31FE9F83900C320FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E6792D71FE9F83900C320FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E6792D81FE9F83900C320FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E6792F11FE9F83900C320FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E6792F21FE9F83900C320FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E6792F41FE9F83900C320FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C3F022A965A0BB08CDE164C /* Pods-LflVideo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RW8JPQ8G72;
+				INFOPLIST_FILE = LflVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LflVideo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E6792F51FE9F83900C320FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54013AA204A1A14DED7349FF /* Pods-LflVideo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RW8JPQ8G72;
+				INFOPLIST_FILE = LflVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LflVideo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E6792F71FE9F83900C320FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36C015D5B8D459241633D914 /* Pods-LflVideoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RW8JPQ8G72;
+				INFOPLIST_FILE = LflVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LflVideoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LflVideo.app/LflVideo";
+			};
+			name = Debug;
+		};
+		0E6792F81FE9F83900C320FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6356376B490D4B7407073C26 /* Pods-LflVideoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RW8JPQ8G72;
+				INFOPLIST_FILE = LflVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LflVideoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LflVideo.app/LflVideo";
+			};
+			name = Release;
+		};
+		0E6792FA1FE9F83900C320FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1870571315C61452B6D53DD2 /* Pods-LflVideoUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = RW8JPQ8G72;
+				INFOPLIST_FILE = LflVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LflVideoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LflVideo;
+			};
+			name = Debug;
+		};
+		0E6792FB1FE9F83900C320FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E40BB8EB9E6CB844582C8CE /* Pods-LflVideoUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = RW8JPQ8G72;
+				INFOPLIST_FILE = LflVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LflVideoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LflVideo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E6792C11FE9F83900C320FC /* Build configuration list for PBXProject "LflVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6792F11FE9F83900C320FC /* Debug */,
+				0E6792F21FE9F83900C320FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E6792F31FE9F83900C320FC /* Build configuration list for PBXNativeTarget "LflVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6792F41FE9F83900C320FC /* Debug */,
+				0E6792F51FE9F83900C320FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E6792F61FE9F83900C320FC /* Build configuration list for PBXNativeTarget "LflVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6792F71FE9F83900C320FC /* Debug */,
+				0E6792F81FE9F83900C320FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E6792F91FE9F83900C320FC /* Build configuration list for PBXNativeTarget "LflVideoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6792FA1FE9F83900C320FC /* Debug */,
+				0E6792FB1FE9F83900C320FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E6792BE1FE9F83900C320FC /* Project object */;
+}
