@@ -20,7 +20,6 @@
     UINavigationController *nav=[[UINavigationController alloc]initWithRootViewController:[MainViewController new]];
     self.window.rootViewController=nav;
     [self.window makeKeyAndVisible];
-    NSLog(@"%@",NSHomeDirectory());
     return YES;
 }
 
